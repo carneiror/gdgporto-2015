@@ -1,0 +1,23 @@
+{
+  "name": "gdg-porto-2015-demo",
+  "version": "1.0.0",
+  "authors": [
+    "Rui Carneiro <rui.arc@gmail.com>"
+  ],
+  "description": "GDG Porto 2015 - Demo",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-route": "~1.4.0",
+    "user-module": "../user-module"
+  }
+}

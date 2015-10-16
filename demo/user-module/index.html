@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>GDG DevFest | Porto 2015</title>
+        <!-- injector:css -->
+        <link rel="stylesheet" href="/src/assets/styles/style.css">
+        <!-- endinjector -->
+    </head>
+    <body>
+        <!-- bower:js -->
+        <script src="vendor/angular/angular.js"></script>
+        <script src="vendor/angular-route/angular-route.js"></script>
+        <!-- endbower -->
+
+        <!-- injector:js -->
+        <script src="/src/scripts/module.js"></script>
+        <script src="/src/scripts/controllers/user-controller.js"></script>
+        <script src="/src/scripts/directives/user-directive.js"></script>
+        <script src="/src/scripts/providers/user-provider.js"></script>
+        <!-- endinjector -->
+
+        <script>
+            // Define the module and set the user name
+            angular.module('UserModuleSandbox', [
+                'DevFest.User'
+            ]).config(['UserServiceProvider', function (userServiceProvider) {
+                userServiceProvider.setName('Rui Carneiro');
+            }]);
+
+            // Boot the App
+            angular.element(document).ready(function () {
+                angular.bootstrap(document, ['UserModuleSandbox']);
+            });
+        </script>
+
+        <h1>User Module Sandbox</h1>
+        <user></user>
+    </body>
+</html>
