@@ -10,3 +10,17 @@ In this talk I will share our current developing process, how do we handle weekl
 
 **Useful links**
 - http://gdgporto.github.io/zeppelin/schedule
+
+
+## Demo
+Small demo to show how we structure our apps at Blip/Betfair
+
+### User Module
+A simple module that must work on a sandbox environment.
+
+- http://carneiror.github.io/gdgporto-2015/demo/user-module/
+
+### Application Module
+An application example that imports an external module and use it.
+
+- http://carneiror.github.io/gdgporto-2015/demo/application/
