@@ -10,7 +10,7 @@ In this talk I will share our current developing process, how do we handle weekl
 
 **Slides:** http://carneiror.github.io/gdgporto-2015/presentation
 
-**Presentation:** Soon
+**Presentation:** https://www.youtube.com/watch?v=1QxcBF_EF4k
 
 **Useful links**
 - http://gdgporto.github.io/zeppelin/schedule
