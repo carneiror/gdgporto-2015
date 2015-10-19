@@ -6,7 +6,7 @@ At Blip we are currently rebuilding all our products and transforming them into 
 
 In this talk I will share our current developing process, how do we handle weekly releases, how we manage to have more than 10 teams working on different projects sharing code and how AngularJs eases this process.
 
-![](https://raw.githubusercontent.com/carneiror/gdgporto-2015/gh-pages/gdg-photo.jpg)
+[![](https://raw.githubusercontent.com/carneiror/gdgporto-2015/gh-pages/gdg-photo.jpg)](https://www.youtube.com/watch?v=1QxcBF_EF4k)
 
 **Slides:** http://carneiror.github.io/gdgporto-2015/presentation
 
